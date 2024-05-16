@@ -1,7 +1,83 @@
+body{
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+#content{
+    width: 22em;
+    background-color: hsl(0, 0%, 8%);
+    font-family: 'Inter', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* border: 1px solid white; */
+    border-radius: 10px;
+    margin: 2em 0 5px 0;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#content #jess img{
+    width: 120px;
+    height: 120px;
+    border-radius: 100em;
+}
+
+#content #username p{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#content #location p{
+    font-size: 14px;
+    color: hsl(75, 94%, 57%);
+}
+
+#content #developer p{
+    color: hsla(0, 0%, 100%, 0.712);
+    font-weight: 400;
+}
+
+#accounts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#content #accounts p.social{
+    /* border: 1px white solid; */
+    background-color: hsl(0, 0%, 20%);
+    font-weight: 600;
+    border-radius: 8px;
+    width: 20em;
+    padding: 12px;
+    text-align: center;
+}
+
+#content #accounts p.social:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+    cursor: pointer;
+}
+
 .attribution { 
-    font-size: 11px; text-align: center; 
+    font-size: 11px; 
+    text-align: center; 
 }
 
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: white; 
+}
+
+.attribution a:hover {
+    color: hsl(75, 94%, 57%);
+    text-decoration: none;
 }
